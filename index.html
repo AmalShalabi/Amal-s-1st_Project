@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style/main.css">
+    
+    <title>To Do List</title>
+</head>
+
+<body>
+<div class="container">
+    <h1><i class="bi bi-clipboard2-check-fill"></i>
+        To Do List</h1>
+    <form class="inputBox" >
+        <input id="toTodo" type="text" placeholder="Task To be done">
+        <input id="dueDate" type="date">
+        <input id="dueTime" type="time">
+        <button id="btn">Add</button>
+    </form>
+
+   <div class="main">
+    <table id="todoTable">
+        <thead>
+            <tr>
+                <td>CheckBox</td>
+                <td>Task</td>
+                <td>Due Date</td>
+                <td>Due Time</td>
+                <td id="delete1">Delete</td>
+            </tr>
+        </thead>
+        <tbody id="mainTable">
+
+   </div>
+        </tbody>
+
+    </table>
+</div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

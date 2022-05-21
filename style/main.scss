@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    background: url("/style/images/bground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(104, 5, 25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+h1 {
+    padding: 0.1em;
+    margin: 0.8em;
+}
+
+.container {
+    width: 95%;
+    color: brown;
+
+
+
+    input {
+        padding: 0.6em;
+        margin-left: 1em;
+        background-color: rgb(235, 149, 149);
+        border-radius: 5px;
+        font-size: 0.8em;
+        width: 15em;
+
+    }
+
+    #btn {
+        background-color: crimson;
+        border-radius: 5px;
+        border: 1px solid crimson;
+        color: white;
+        font-weight: bold;
+        font-size: 0.9em;
+        padding: 0.6em 1.5em;
+        margin-left: 1em;
+        cursor: pointer;
+    }
+
+    #btn:hover {
+        background-color: darkcyan;
+        border: 1px solid darkcyan;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+
+    table {
+        text-align: center;
+        color: rgb(43, 12, 33);
+        width: 100%;
+
+        thead {
+            background-color: rgb(235, 36, 69);
+            color: white;
+        }
+
+
+
+        tbody {
+            font-weight: lighter;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+td {
+    border: 1px solid rgb(141, 135, 135);
+    padding: 5px;
+}
+
+
+
+tbody {
+    animation: fadeIn2 2s forwards;
+}
+
+.strike {
+    text-decoration: line-through red 3px;
+}
+
+
+@keyframes fadeIn2 {
+
+    from {
+        opacity: 0;
+        transform: translateX(-2em)
+    }
+
+    to {
+        opacity: 0.8;
+        transform: translateX(0)
+    }
+}
+
+@media only screen and (min-width: 150px) {
+    .inputBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+
+        input {
+            margin-bottom: 2em;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .container{
+        width: 100%;
+
+        table{
+            width: 60%;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .inputBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+
+        input {
+            margin-bottom: 2em;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .container{
+        width: 100%;
+        text-align: center;
+
+        table{
+            width: 100%;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1080px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+
+        input{
+            width: 100%
+        }
+    }
+}
+

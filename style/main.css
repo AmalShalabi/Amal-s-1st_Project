@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fredoka One', cursive;
+  background: url("/style/images/bground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #680519;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  padding: 0.1em;
+  margin: 0.8em;
+}
+
+.container {
+  width: 95%;
+  color: brown;
+}
+
+.container input {
+  padding: 0.6em;
+  margin-left: 1em;
+  background-color: #eb9595;
+  border-radius: 5px;
+  font-size: 0.8em;
+  width: 15em;
+}
+
+.container #btn {
+  background-color: crimson;
+  border-radius: 5px;
+  border: 1px solid crimson;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.6em 1.5em;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.container #btn:hover {
+  background-color: darkcyan;
+  border: 1px solid darkcyan;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em;
+}
+
+.main table {
+  text-align: center;
+  color: #2b0c21;
+  width: 100%;
+}
+
+.main table thead {
+  background-color: #eb2445;
+  color: white;
+}
+
+.main table tbody {
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+td {
+  border: 1px solid #8d8787;
+  padding: 5px;
+}
+
+tbody {
+  -webkit-animation: fadeIn2 2s forwards;
+          animation: fadeIn2 2s forwards;
+}
+
+.strike {
+  -webkit-text-decoration: line-through red 3px;
+          text-decoration: line-through red 3px;
+}
+
+@-webkit-keyframes fadeIn2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-2em);
+            transform: translateX(-2em);
+  }
+  to {
+    opacity: 0.8;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-2em);
+            transform: translateX(-2em);
+  }
+  to {
+    opacity: 0.8;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@media only screen and (min-width: 150px) {
+  .inputBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .inputBox input {
+    margin-bottom: 2em;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container {
+    width: 100%;
+  }
+  .container table {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .inputBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .inputBox input {
+    margin-bottom: 2em;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  .container table {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+  }
+  .container input {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
