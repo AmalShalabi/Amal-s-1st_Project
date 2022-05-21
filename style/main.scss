@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Fredoka One', cursive;
-    background: url('.bground.jpg');
+    background-image: url("../style/images/bground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(104, 5, 25);
@@ -30,6 +30,7 @@ h1 {
 .container {
     width: 95%;
     color: brown;
+    position: relative;
 
 
 
@@ -93,7 +94,11 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+img{
+    position: absolute;
+    top: 180px;
+    right: -280px;
+}
 
 
 td {

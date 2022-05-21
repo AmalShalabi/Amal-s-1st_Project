@@ -108,9 +108,9 @@ function getData() {
 
 getData()
 
-const img = document.createElement("img");
+/*const img = document.createElement("img");
 img.src = "https://o.remove.bg/downloads/7c797f20-01a0-4bf2-b41e-f2abdaa6b9b4/192-1925888_clearly-being-prepared-and-organized-makes-a-difference-cartoon-making-a-list-removebg-preview.png";
 img.setAttribute("width", "300px");
 img.setAttribute("height", "300px");
 img.setAttribute("alt", "moodle logo");
-document.body.appendChild(img);
+document.body.appendChild(img);*/

@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Fredoka One', cursive;
-  background: url("/style/images/bground.jpg");
+  background-image: url("../style/images/bground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #680519;
@@ -36,6 +36,7 @@ h1 {
 .container {
   width: 95%;
   color: brown;
+  position: relative;
 }
 
 .container input {
@@ -99,6 +100,12 @@ h1 {
   width: 50%;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  position: absolute;
+  top: 180px;
+  right: -280px;
 }
 
 td {
